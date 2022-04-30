@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.container .navbar {
+    background-color: rgba(44, 62, 80, 255);
+    width: auto;
+    height: 10vh;
+    padding: 4vh 0 ;
+    position: sticky;
+    top: 0;
+}
+
+.container .navbar .logo {
+    display: inline;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-left: 5%;
+}
+
+.container .navbar .logo a {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.container .navbar .menu-bar {
+    display: inline;
+    float: right;
+    width: 70%;
+    text-align: end;
+    padding-right: 5%;
+}
+
+.container .navbar .menu-bar li {
+    display: inline;
+    padding: 0 30px;
+}
+
+.container .navbar .menu-bar li a {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.container .navbar .menu-bar li a:hover {
+    color: rgba(26, 188, 156, 255);
+}
+
+.container .first-section {
+    background: rgba(26, 188, 156, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.container .first-section .box img {
+    width: 20%;
+    margin: 7% 40% 2%;
+}
+
+.container .first-section .box h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4em;
+}
+
+.container .first-section .box .line {
+    font-size: 2em;
+    background-color: white;
+    text-align: center;
+
+}
+
+.container .first-section .box .icon {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.container .first-section .box .content p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+
+.container .second-section {
+    background: white;
+}
+
+.container .second-section .box {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.container .second-section .box h2 {
+    color: rgba(44, 62, 80, 255);
+    font-size: 3em;
+    padding-top: 5%;
+}
+
+.container .second-section .box .icon {
+    padding: 20px;
+    color: rgba(44, 62, 80, 255);
+    text-align: center;
+    font-size: 2em;
+}
+
+.container .second-section .box .boxes {
+    width: 100%;
+    padding: 0 3em;
+    margin: 0 0 3% 0;
+}
+
+.container .second-section .box .boxes .box {
+    border-radius: 5%;
+    width: 32%;
+    padding: 1%;
+}
+
+.container .third-section {
+    height: 100vh;
+    background: rgba(26, 188, 156, 255);
+}
+
+.container .third-section .box {
+    text-align: center;
+}
+
+.container .third-section .box h2 {
+    color: white;
+    font-size: 3em;
+    padding-top: 5%;
+}
+
+.container .third-section .box .icon {
+    padding: 20px;
+    color: white;
+    font-size: 2em;
+}
+
+.container .third-section .box .contents {
+    width: 100%;
+    color: white;
+    font-size: 23px;
+}
+
+.container .third-section .box .contents .first-content {
+    width: 28%;
+    margin-left: 20%;
+    text-align: left;
+    float: left;
+}
+
+.container .third-section .box .contents .second-content {
+    width: 28%;
+    margin-right: 21%;
+    text-align: left;
+    float: right;
+}
+
+
+.container .last-section {
+    height: 100vh;
+    background: white;
+}
+
+.container .last-section .box h2 {
+    color: rgba(44, 62, 80, 255);
+    font-size: 3em;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.container .last-section .box .icon {
+    padding: 20px;
+    color: rgba(44, 62, 80, 255);
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 2em;
+    
+}
+.container .last-section .form {
+    width: 100%;
+    justify-content: center;
+    padding: 0 25%;
+}
+
+.container .last-section .form label{
+    font-size: 25px;
+    font-weight: 500;
+    color: grey;
+    display: block;
+}
+.container .last-section .form input {
+    width: 60em;
+    margin-bottom: 2em;
+    float: inline;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.container .last-section .form textarea {
+    max-width: 60em;
+    min-width: 60em;
+    height: 8em;
+    min-height: 3em;
+    float: inline;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.container .last-section .form button {
+    margin-top: 1em;
+    padding: 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10%;
+    background-color: rgba(26, 188, 156, 255);
+    color: white;
+    display: block;
+}
+
+.container footer .start {
+    height: 40vh;
+    background: rgb(66, 85, 104);
+}
+
+.container footer .end {
+    height: 10vh;
+    background-color: rgba(44, 62, 80, 255);
+}
