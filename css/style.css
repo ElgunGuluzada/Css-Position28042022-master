@@ -10,8 +10,9 @@
     background-color: rgba(44, 62, 80, 255);
     width: auto;
     height: 10vh;
-    padding: 4vh 0 ;
+    padding: 4vh 0;
     position: sticky;
+    z-index: 5;
     top: 0;
 }
 
@@ -124,12 +125,12 @@
 }
 
 .container .third-section {
-    height: 100vh;
     background: rgba(26, 188, 156, 255);
 }
 
 .container .third-section .box {
     text-align: center;
+    align-items: center;
 }
 
 .container .third-section .box h2 {
@@ -148,35 +149,69 @@
     width: 100%;
     color: white;
     font-size: 23px;
+    display: inline;
+    position: relative;
 }
 
 .container .third-section .box .contents .first-content {
-    width: 28%;
-    margin-left: 20%;
+    width: 30.5%;
+    margin-left: 19%;
     text-align: left;
-    float: left;
 }
 
 .container .third-section .box .contents .second-content {
-    width: 28%;
-    margin-right: 21%;
+    width: 60%;
+    left: 3%;
     text-align: left;
-    float: right;
+    position: absolute;
+    top: 2%;
 }
 
+.container .third-section .box .button {
+    margin: 4% 0;
+    padding-bottom: 8%;
+    color: white;
+    font-size: 20px;
+}
+
+.container .third-section .box .button a:hover {
+    background: white;
+    border: none;
+    color: rgba(44, 62, 80, 255);
+    transition: 0.5s;
+}
+
+.container .third-section .box .button a:hover i {
+    color: rgba(44, 62, 80, 255);
+    transition: 0.5s;
+}
+
+.container .third-section .box .button .download-icon {
+    color: white;
+    margin-right: 1%;
+}
+
+.container .third-section .box .button a {
+    padding: 1.5% 2%;
+    color: white;
+    border: solid 2px;
+    font-weight: 600;
+    border-radius: 10px;
+}
 
 .container .last-section {
     background: white;
 }
 
-.container .last-section .box{
+.container .last-section .box {
     justify-content: center;
     padding-bottom: 5%;
 }
+
 .container .last-section .box h2 {
     color: rgba(44, 62, 80, 255);
     font-size: 3em;
-    padding-top: 5%;
+    padding-top: 4%;
     text-align: center;
 }
 
@@ -186,20 +221,21 @@
     font-size: 2em;
     text-align: center;
     padding-bottom: 2em;
-    
 }
+
 .container .last-section .form {
     width: 100%;
     justify-content: center;
     padding: 0 25%;
 }
 
-.container .last-section .form label{
+.container .last-section .form label {
     font-size: 25px;
     font-weight: 500;
     color: grey;
     display: block;
 }
+
 .container .last-section .form input {
     width: 100%;
     margin-bottom: 2em;
@@ -229,12 +265,88 @@
     display: block;
 }
 
+
+
+
 .container footer .start {
-    height: 40vh;
-    background: rgb(66, 85, 104);
+    background: rgb(44, 62, 80);
+    width: 100%;
+}
+
+.container footer .start .container {
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container footer .start .container div {
+    color: white;
+    width: 100%;
+}
+
+.container footer .start .container .header {
+    text-align: center;
+    padding-bottom: 6%;
+}
+
+.container footer .start .container .content {
+    line-height: 1.2;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.second-box .content {
+    width: 100% !important;
+    padding: 5% 2%;
+
+}
+
+.second-box .content .icon {
+    display: inline;
+    width: 100% !important;
+
+}
+
+.second-box .content .icon a .f {
+    padding: 4% 5%;
+}
+
+.second-box .content .icon a .f:hover {
+    background: white;
+    color: rgba(44, 62, 80, 255);
+    padding: 4% 5%;
+    transition: .5s;
+}
+
+.second-box .content a i {
+    border: solid 2px white;
+    border-radius: 50%;
+    padding: 4%;
+    font-size: 1em;
+    color: white;
+    display: inline;
+}
+
+.second-box .content .icon a i:hover {
+    background: white;
+    color: rgba(44, 62, 80, 255);
+    transition: .5s;
+    padding: 4%;
+}
+
+.third-box .content {
+    width: 90% !important;
+}
+
+.container footer .start .container .content span a {
+    color: rgba(26, 188, 156);
 }
 
 .container footer .end {
-    height: 10vh;
-    background-color: rgba(44, 62, 80, 255);
+    text-align: center;
+    padding: 2% 0;
+    color: white;
+    background-color: rgba(26, 37, 47);
 }
